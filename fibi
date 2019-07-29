@@ -1,0 +1,11 @@
+x = (input("Fibonachi number:"))
+l = [0,1]
+k = 0
+j = 1
+while len(l) <= int(x):
+    l.append(l[k]+l[j])
+    k += 1
+    j += 1
+
+
+print(l)
