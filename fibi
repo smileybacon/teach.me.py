@@ -7,5 +7,6 @@ while len(l) <= int(x):
     k += 1
     j += 1
 
-
+l.remove(0)
 print(l)
+
